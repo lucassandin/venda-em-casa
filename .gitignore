@@ -1,0 +1,58 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-generated files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+bin/
+obj/
+
+# Ignore Rider project files
+.idea/
+*.sln.iml
+
+# Ignore ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Ignore publish output
+publish/
+
+# Ignore test results
+TestResults/
+
+# Ignore npm packages
+node_modules/
+
+# Ignore logs
+*.log
+
+# Ignore secrets
+secrets.json
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore local tools
+.localtoolstarget
+
+# Ignore coverage reports
+coverage/
+*.coverage
+*.coveragejson
+
+# Ignore Resharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Ignore dotnet watch files
+.dotnet_watch*
+
+# Ignore global.json user-specific SDK settings
+sdk-global.json
+
+# Ignore Docker files
+**/Dockerfile.*.backup
