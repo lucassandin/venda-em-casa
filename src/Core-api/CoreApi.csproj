@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="Domain\" />
-    <Folder Include="Infra\Context\" />
     <Folder Include="Infra\Migrations\" />
     <Folder Include="Infra\Repositories\" />
   </ItemGroup>
@@ -21,6 +20,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.4" />
   </ItemGroup>
 
 </Project>

@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 
 // Configuração do banco de dados PostgreSQL
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? "Host=localhost;Database=devdb;Username=devuser;Password=devpassword";
-builder.Services.AddCoreApiPersistence(connectionString);
+builder.Services.AddPersistence(connectionString);
 
 var app = builder.Build();
 

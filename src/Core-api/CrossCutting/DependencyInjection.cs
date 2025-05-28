@@ -1,7 +1,8 @@
+using CoreApi.Infra.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CoreApi.Infra
+namespace CoreApi.CrossCutting
 {
     public static class DependencyInjection
     {
