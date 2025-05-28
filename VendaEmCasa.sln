@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auth", "src\auth\auth.csproj", "{1E0E8537-545C-B1B1-7A43-705785F3A211}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth", "src\auth\Auth.csproj", "{1E0E8537-545C-B1B1-7A43-705785F3A211}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bff-app", "src\Bff-app\Bff-app.csproj", "{280859AC-7BCB-1E4A-534F-2BF76DC0A5DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BffApp", "src\Bff-app\BffApp.csproj", "{280859AC-7BCB-1E4A-534F-2BF76DC0A5DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bff-web", "src\Bff-web\Bff-web.csproj", "{B4D262A4-16FB-92D1-BCF5-7303D7902DD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BffWeb", "src\Bff-web\BffWeb.csproj", "{B4D262A4-16FB-92D1-BCF5-7303D7902DD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core-api", "src\Core-api\Core-api.csproj", "{18C5F89D-8EEB-974B-1519-BE4DE0D966DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreApi", "src\Core-api\CoreApi.csproj", "{18C5F89D-8EEB-974B-1519-BE4DE0D966DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
