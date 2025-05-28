@@ -1,11 +1,12 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using CoreApi.Domain;
 
 namespace CoreApi.Infra.Contexts
 {
-    public class AuthDbContext : IdentityDbContext
+    public class AuthDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, string>
     {
         public AuthDbContext(DbContextOptions<AuthDbContext> options) : base(options) { }
-        // Se precisar customizar IdentityUser ou IdentityRole, adicione aqui
+        // Customizações de mapping podem ser adicionadas aqui futuramente
     }
 }
